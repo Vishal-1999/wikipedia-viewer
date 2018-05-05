@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial, helvatica, sans-serif;
+}
+
+header h1 {
+  max-width: 480px;
+  text-align: center;
+  margin: auto;
+  color: red;
+}
+
+header nav {
+  background: #333;
+  overflow: hidden;
+}
+
+nav > a img {
+  height: 100px;
+  width: 50px;
+}
+#searchbox {
+  float: right;
+}
+#searchbox input[type="text"] {
+  font-size: 17px;
+  margin: 6px;
+  margin-right: 0;
+  padding: 6px 16px;
+}
+
+#searchbox button {
+  background: #333;
+  margin: 0;
+  border: none;
+  padding: 10px 14px;
+}
+
+#searchbox button:hover{
+  background: #222;
+}
+#box {
+  width: 100%;
+  min-height: 360px;
+  
+}
+
+#box > a {
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 100px;
+  display: block;
+  max-width: 480px;
+  margin: auto;
+}
+
+.results{
+  border: 1px solid black;
+  padding: 14px 16px;
+}
